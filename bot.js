@@ -4,7 +4,7 @@ const mysql = require("mysql");
 const request = require('request');
 
 require("dotenv").config()
-const token = process.env.api
+const token = "6005326182:AAE-kYz704bnPcLq5BzHC2LyAyXYAtyIJcY"
 const bot = new Telegraf(token)
 
 const con = mysql.createConnection({
